@@ -13,7 +13,7 @@ import android.view.WindowManager;
 
 import com.meroapps.framework.*;
 
-public abstract class Android extends Activity implements Game {
+public abstract class AndroidGame extends Activity implements Game {
 	AndroidFastRenderView renderView;
 	Graphics graphics;
 	Audio audio;
