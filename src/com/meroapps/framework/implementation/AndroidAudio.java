@@ -28,7 +28,7 @@ public class AndroidAudio implements Audio{
 			AssetFileDescriptor assetDescriptor = assets.openFd(filename);
 			return new AndroidMusic(assetDescriptor);
 		}catch(IOException e){
-			throw new RuntimeException("Couldn't load music '" + filename"'");
+			throw new RuntimeException("Couldn't load music '" + filename + "'");
 		}
 	}
 	

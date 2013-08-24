@@ -9,4 +9,9 @@ public class SampleGame extends AndroidGame {
         return new LoadingScreen(this); 
     }
     
+    @Override
+    public void onBackPressed() {
+    getCurrentScreen().backButton();
+    }
+
 }
